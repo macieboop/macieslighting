@@ -1,0 +1,11 @@
+{
+  "item.macieslighting.soldering_iron": "Soldering Iron",
+  "item.macieslighting.solder": "Solder",
+
+  "block.macieslighting.standardls": "Light Switch",
+  "block.macieslighting.lamp1": "Basic Lamp",
+
+  "block.macieslighting.tinore": "Cassiterite",
+
+  "itemGroup.ml_tab": "Macie's Lighting"
+}
