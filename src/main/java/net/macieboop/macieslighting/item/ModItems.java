@@ -23,6 +23,23 @@ public class ModItems {
                     .stacksTo(16)
             ));
 
+    //make the textures and stuff for these:
+    public static final RegistryObject<Item> CASSITERITE = ITEMS.register("cassiterite",
+            () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.TAB_ML)
+                    .stacksTo(64)
+            ));
+    public static final RegistryObject<Item> TIN = ITEMS.register("tin",
+            () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.TAB_ML)
+                    .stacksTo(64)
+            ));
+    public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic",
+            () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.TAB_ML)
+                    .stacksTo(16)
+            ));
+
     public  static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
